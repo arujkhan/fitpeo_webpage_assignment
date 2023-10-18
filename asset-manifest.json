@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fitpeo_webpage_assignment/static/css/main.c9a82086.css",
-    "main.js": "/fitpeo_webpage_assignment/static/js/main.947cc341.js",
+    "main.js": "/fitpeo_webpage_assignment/static/js/main.33d88aab.js",
     "static/js/787.985a61c0.chunk.js": "/fitpeo_webpage_assignment/static/js/787.985a61c0.chunk.js",
     "static/media/p2.png": "/fitpeo_webpage_assignment/static/media/p2.96fa1d6aa85c316a19fa.png",
     "static/media/product1.png": "/fitpeo_webpage_assignment/static/media/product1.1c73d51c18992ce713ee.png",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/fitpeo_webpage_assignment/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/fitpeo_webpage_assignment/index.html",
     "main.c9a82086.css.map": "/fitpeo_webpage_assignment/static/css/main.c9a82086.css.map",
-    "main.947cc341.js.map": "/fitpeo_webpage_assignment/static/js/main.947cc341.js.map",
+    "main.33d88aab.js.map": "/fitpeo_webpage_assignment/static/js/main.33d88aab.js.map",
     "787.985a61c0.chunk.js.map": "/fitpeo_webpage_assignment/static/js/787.985a61c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9a82086.css",
-    "static/js/main.947cc341.js"
+    "static/js/main.33d88aab.js"
   ]
 }
