@@ -1,0 +1,10 @@
+.main {
+    
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(248, 252, 252);
+    padding: 10px;
+    
+}

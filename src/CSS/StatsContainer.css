@@ -1,0 +1,95 @@
+.stats-container{
+    
+    
+    margin: 0px 30px 0px 30px;
+   
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.graph{
+    background-color: white;
+    width: 65%;
+    box-shadow:2px 2px 2px 2px #e2e0e0;
+    border-radius: 4px;
+    padding: 20px;
+    height: 400px;
+    margin: 15px;
+  
+}
+
+.donut{
+   width: 25%;
+    background-color: white;
+    margin: 15px;
+    box-shadow:2px 2px 2px 2px #e2e0e0;
+    border-radius: 4px;
+    padding: 20px;
+    height:400px;
+    max-height: 400px;
+}
+.donut-canvas,.graph-canvas{
+    height: 300px;
+    
+}
+.donut canvas {
+    
+    width: 200px;
+    height: 200px;
+}
+
+.graph canvas{
+    max-width: 1000px;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.subtitle{
+    font-size: small;
+    color: #c0cac8;
+}
+/*
+@media screen and (min-width:700px) and (max-width: 1200px) {
+  
+ 
+.graph canvas{
+    flex-direction: row;
+    width: calc(70%-10px);
+}
+.donut canvas{
+    flex-direction: row;
+    width: calc(30%-50px);
+   
+}
+*/
+
+@media screen and  (max-width:700px){
+    .stats-container{
+        flex-direction: column;
+        
+    }
+
+    .graph,.donut{
+        flex-direction: column;
+        width: 90%;
+    }
+}
+@media screen and (min-width:700)and (max-width:1500px){
+    .stats-container{
+        flex-direction: row;
+        
+    }
+
+    .graph,.donut{
+        flex-direction: row;
+        width: 40%;
+    }
+    
+}
+
+

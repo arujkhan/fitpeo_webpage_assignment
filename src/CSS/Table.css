@@ -1,0 +1,46 @@
+table {
+    width:inherit;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    width: 10%;
+    padding: 10px;
+    text-align: left;
+    
+  }
+
+  th{
+    color: #c0cac8;
+  }
+  
+  .table-container img{
+    height: 70px;
+    width: 120px;
+  }
+/*
+  input{
+    float: right;
+  padding: 6px;
+  border-radius: 5px;
+  border-color: #edf5f3;
+  margin-top: -20px;
+  margin-right: 16px;
+  font-size: 17px;
+  }
+  /* Define styles for larger screens */
+  @media (min-width: 768px) {
+    th, td {
+      padding: 15px;
+    }
+  }
+  
+  .table-container{
+    justify-content: center;
+    background-color: white;
+    box-shadow:2px 2px 2px 2px #e2e0e0;
+    border-radius: 4px;
+    padding: 20px;
+    
+    margin: 0px 30px 0px 30px;
+  }
