@@ -6,7 +6,7 @@ function NavButton({text,icon}){
     return (
         
             <button className="nav-button">{icon} &nbsp;
-                {text}  <MdOutlineKeyboardArrowRight />
+                {text}  <MdOutlineKeyboardArrowRight style={{float:'right'}} />
             </button>
         
     );
